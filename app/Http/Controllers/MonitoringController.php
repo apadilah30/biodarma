@@ -46,6 +46,7 @@ class MonitoringController extends Controller
 
     public function delete($id)
     {
-    	# code...
+    	$order = Monitoring::orderBy('created_at','desc')->get();
+        return view('Admin.Monitoring.raw',['order'=>$order]);
     }
 }
