@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
- 
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -44,7 +43,7 @@
                             <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
                                 <div class="nav-user-info">
                                     <h5 class="mb-0 text-white nav-user-name">Nama</h5>
-                                    <span class="status"></span><span class="ml-2">Active</span>
+                                    <span class="status"></span><span class="ml-2">Achtive</span>
                                 </div>
                                 <a class="dropdown-item" href="#"><i class="fas fa-cog mr-2"></i>Setting Account</a>
                                 <form id="logout-form" action="#" method="POST">
