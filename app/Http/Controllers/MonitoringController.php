@@ -35,7 +35,8 @@ class MonitoringController extends Controller
 
     public function edit($id)
     {
-    	# code...
+    	$data = Monitoring::orderBy('created_at','desc')->get();
+        return view('Admin.Monitoring.raw',['data'=>$data]);
     }
 
     public function update(Request $req, $id)
