@@ -20,3 +20,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::post('/operatorStore','OperatorController@store')->name('operator.store');
 
 Route::post('/monitoringStore','MonitoringController@store')->name('monitoring.store');
+
+Route::get('/getData','ChartController@index')->name('get.data');

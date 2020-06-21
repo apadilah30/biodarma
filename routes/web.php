@@ -38,3 +38,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/monitoring','monitoringController@index')->name('monitoring');
+
+Route::get('/experiment','ChartController@load');
